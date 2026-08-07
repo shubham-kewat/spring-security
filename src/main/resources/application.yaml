@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: security
+  datasource:
+    url: jdbc:mysql://localhost:3306/security_demo
+    username: root
+    password: 12345678
+#    driver-class-name: com.mysql.cj.jdbc.Driver
