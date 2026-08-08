@@ -20,4 +20,7 @@ public class AppUser {
     private String password;
 
     private String role;
+
+    @Column(length = 500)
+    private String permissions;
 }

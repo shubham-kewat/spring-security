@@ -1,4 +1,4 @@
-package com.kewat.security;
+package com.kewat.security.repository;
 
 import com.kewat.security.entity.AppUser;
 import org.springframework.data.jpa.repository.JpaRepository;

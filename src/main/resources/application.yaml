@@ -6,3 +6,13 @@ spring:
     username: root
     password: 12345678
 #    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+logging:
+  level:
+    org:
+      springframework:
+        security=TRACE:
